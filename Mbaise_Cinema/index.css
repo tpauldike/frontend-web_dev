@@ -1,0 +1,60 @@
+body {
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(69, 95, 238);
+    font-size: larger;
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+}
+
+h1 {
+    vertical-align: middle;
+    color: rgb(12, 122, 85);
+    font-weight: bolder;
+}
+
+.motto {
+    vertical-align: middle;
+    color: rgb(12, 122, 85);
+    font-weight: bolder;
+    text-align: left;
+}
+
+form {
+    color: brown;
+    vertical-align: middle;
+}
+
+.img {
+    background-position-x: right;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+
+.download {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    display: flow-root;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    align-items: baseline;
+    display: none;
+    position: absolute;
+    min-width: none;
+    background-color: rgba(0, 0, 0, 0.274);
+    color:rgb(2, 99, 112);
+    z-index: 1;
+    font-size: large;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
